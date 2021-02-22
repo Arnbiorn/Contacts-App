@@ -89,7 +89,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="bk8-tb-XBM" kind="show" trigger="accessoryAction" id="30v-P9-AWv"/>
+                                    <segue destination="bk8-tb-XBM" kind="show" id="lEp-kq-BXx"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
