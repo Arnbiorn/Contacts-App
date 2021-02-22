@@ -13,6 +13,7 @@
 		498BBCC025E4015D00C0D065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498BBCBE25E4015D00C0D065 /* Main.storyboard */; };
 		498BBCC225E4015F00C0D065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498BBCC125E4015F00C0D065 /* Assets.xcassets */; };
 		498BBCC525E4015F00C0D065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498BBCC325E4015F00C0D065 /* LaunchScreen.storyboard */; };
+		498BBCD725E4048100C0D065 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498BBCD625E4048100C0D065 /* DataManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		498BBCC125E4015F00C0D065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498BBCC425E4015F00C0D065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498BBCC625E4015F00C0D065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498BBCD625E4048100C0D065 /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		498BBCB725E4015D00C0D065 /* Contacts App */ = {
 			isa = PBXGroup;
 			children = (
+				498BBCD525E4046D00C0D065 /* Models */,
 				498BBCCF25E4020700C0D065 /* Supporting Files */,
 				498BBCD225E4022300C0D065 /* ViewControllers */,
 				498BBCCE25E401EB00C0D065 /* Storyboards */,
@@ -97,6 +100,14 @@
 				498BBCBC25E4015D00C0D065 /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		498BBCD525E4046D00C0D065 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				498BBCD625E4048100C0D065 /* DataManger.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 				498BBCBD25E4015D00C0D065 /* ViewController.swift in Sources */,
 				498BBCB925E4015D00C0D065 /* AppDelegate.swift in Sources */,
 				498BBCBB25E4015D00C0D065 /* SceneDelegate.swift in Sources */,
+				498BBCD725E4048100C0D065 /* DataManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
